@@ -56,7 +56,6 @@ main {
   width: 500px;
   margin: auto;
   padding: 2.5rem 0;
-  border: 1px solid rgb(255, 255, 255);
   height: 80vh;
 }
 
@@ -69,7 +68,7 @@ main {
   width: calc(100% / 10);
   border: 1px solid rgb(104, 11, 11);
   aspect-ratio: 3 / 3;
-  color: white;
+  color: rgb(61, 20, 20);
   display: flex;
   align-items: center;
   justify-content: center;
