@@ -48,13 +48,15 @@ header {
 main {
   background-color: #8bc6ec;
   height: 80vh;
+  overflow-y: hiddens;
+  overflow-y: scroll;
 }
 
 .container {
-  width: 800px;
+  width: 500px;
   margin: auto;
-  padding: 3rem 0;
-  border: 1px solid black;
+  padding: 2.5rem 0;
+  border: 1px solid rgb(255, 255, 255);
   height: 80vh;
 }
 
@@ -66,7 +68,7 @@ main {
 .cell {
   width: calc(100% / 10);
   border: 1px solid rgb(104, 11, 11);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 3 / 3;
   color: white;
   display: flex;
   align-items: center;
