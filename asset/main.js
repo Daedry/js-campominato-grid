@@ -28,7 +28,7 @@ const initialize = () => {
   if (selectInput.value === "seleziona") {
     cells.innerHTML = ""; // Cancello la griglia di gioco
     alert("Selezionare un livello di difficoltà"); //avviso l'utente
-  } else if (selectInput.value === "facile") {
+  } else if (selectInput.value === "difficile") {
     // Se l'utente ha selezionato il lvl facile
     cells.innerHTML = "";
     // Genero una griglia di gioco con 50 celle
@@ -60,7 +60,7 @@ const initialize = () => {
       });
       cells.append(cell);
     }
-  } else if (selectInput.value === "difficile") {
+  } else if (selectInput.value === "facile") {
     cells.innerHTML = "";
     for (let i = 0; i < 100; i++) {
       const randomNumber = generateRandomNumbers(1, 100);
